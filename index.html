@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackjack</title>
+    <script src = 'C:\Users\Gabriel\Documents\Coding Dojo\CodingDojoNode\dependencies\bower_components\jquery\dist\jquery.js'></script>
+    <script type="text/javascript" src='C:\Users\Gabriel\Documents\Coding Dojo\CodingDojoNode\deck_of_cards\deck.js'></script>
+    <script type="text/javascript" src='C:\Users\Gabriel\Documents\Coding Dojo\CodingDojoNode\deck_of_cards\game.js'></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class='container-fluid'>
+        <div class='row'>
+            <div id='header'>
+                <h1>Welcome to the BlackJack!!!</h1>
+                <div id='gameMessage'></div>
+            </div>
+        </div>
+        <div class='row' id='options'>
+            <div class='col-sm-6 col-sm-offset-3'>
+                <label>Your Name:<input type='text' id='playerName' placeholder='Put Name Here'></label>
+                <label>Your Money:<input type='number' id='playerMoney' placeholder='100'></label>
+                <button id='startGame'>Start Game</button>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-sm-10 col-sm-offset-1' id='table'>
+                <div class='row' id='gameInfo'>
+                    <div class='col-sm-12' id='playerInfo'>
+
+                    </div>
+                </div>
+                <div class='row' id='gameAction'>
+                    <div class='col-sm-12' id='action'>
+                        <div class='col-sm-10 col-sm-offset-1' id='dealer'>
+
+                        </div>
+                        <div class='col-sm-10 col-sm-offset-1' id='playerCards'>
+
+                        </div>
+                    </div>
+                </div>
+                <div class='row' id='gameFooter'>
+                    <div class='col-sm-12' id='footer'>
+                        <div class='col-sm-6' id='round'>
+                            <input type='number' id='bet' placeholder='Minimum 5$'>
+                            <button id='newRound'>New Round</button>
+                        </div>
+                        <div class='col-sm-6' id='moves'>
+                            <div class='col-sm-6'>
+                                <button id='hit'>Hit</button>
+                            </div>
+                            <div class='col-sm-6'>
+                                <button id='stand'>Stand</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

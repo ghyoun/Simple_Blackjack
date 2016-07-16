@@ -1,0 +1,58 @@
+#header {
+    text-align: center;
+}
+
+#options {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+input {
+    border: 1px solid black;
+
+}
+
+label {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#table {
+
+    border-radius: 8px;
+    background-image: url('C:/Users/Gabriel/Documents/Coding Dojo/CodingDojoNode/deck_of_cards/img/table.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 804px;
+}
+
+.info {
+    color: white;
+}
+
+#gameInfo {
+    height: 15%;
+}
+
+#gameAction {
+    height: 64%;
+}
+
+#action {
+    height: 99%;
+}
+
+    #dealer {
+        text-align: center;
+        height: 49%;
+    }
+
+    #playerCards {
+        text-align: center;
+        height: 49%;
+    }
+
+#gameFooter {
+    height:20%;
+}
